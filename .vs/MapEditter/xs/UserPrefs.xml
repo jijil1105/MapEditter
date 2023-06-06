@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TestJson.json">
+    <Files>
+      <File FileName="Assets/Scripts/PalletManager.cs" Line="101" Column="20" />
+      <File FileName="Assets/Scripts/PalletButton.cs" Line="38" Column="36" />
+      <File FileName="Assets/Scripts/FieldButton.cs" Line="10" Column="22" />
+      <File FileName="Assets/Scripts/Inputs.cs" Line="39" Column="6" />
+      <File FileName="Assets/TestJson.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MapEditter" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="30ebd62e-966d-41d5-9da4-b90e38565dce" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/masaki/MapEditter/Assets/Scripts/FieldButton.cs" relfile="Assets/Scripts/FieldButton.cs" line="33" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
