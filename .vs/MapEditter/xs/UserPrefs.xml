@@ -1,19 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TestJson.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PalletManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PalletManager.cs" Line="101" Column="20" />
-      <File FileName="Assets/Scripts/PalletButton.cs" Line="38" Column="36" />
-      <File FileName="Assets/Scripts/FieldButton.cs" Line="10" Column="22" />
-      <File FileName="Assets/Scripts/Inputs.cs" Line="39" Column="6" />
-      <File FileName="Assets/TestJson.json" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PalletManager.cs" Line="113" Column="42" />
+      <File FileName="Assets/Scripts/PalletButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FieldButton.cs" />
+      <File FileName="Assets/Scripts/Inputs.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MapEditter" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

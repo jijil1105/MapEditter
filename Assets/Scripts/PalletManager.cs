@@ -36,12 +36,15 @@ public class PalletManager : MonoBehaviour
     public GameObject Vertical;
     public GameObject block;
     public GameObject[] blocks;
+    public GameObject image;
 
     public class Save_Data
     {
         public List<int> block_vlue = new List<int>();
         public List<int> block_pos_x = new List<int>();
         public List<int> block_pos_y = new List<int>();
+        public int Width;
+        public int Height;
     }
 
     public Save_Data save_Data = new Save_Data();
@@ -109,6 +112,8 @@ public class PalletManager : MonoBehaviour
             save_Data.block_vlue.Add(value);
             save_Data.block_pos_x.Add(x);
             save_Data.block_pos_y.Add(y);
+            save_Data.Width = Width;
+            save_Data.Height = Height;
         }
 
         for(int i = 0; i < save_Data.block_vlue.Count; i++)
@@ -117,6 +122,7 @@ public class PalletManager : MonoBehaviour
                 " Pos_X : " + save_Data.block_pos_x[i] +
                 " Pos_Y : " + save_Data.block_pos_y[i]);
         }
+        Debug.Log("Width : " + save_Data.Width + " Height : " + save_Data.Height);
 
         string json = LitJson.JsonMapper.ToJson(save_Data);
 
@@ -126,5 +132,6 @@ public class PalletManager : MonoBehaviour
         writer.Write(json);
         writer.Flush();
         writer.Close();
+        image.SetActive(true);
     }
 }

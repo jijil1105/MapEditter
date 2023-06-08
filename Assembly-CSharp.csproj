@@ -47,20 +47,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PalletManager.cs" />
-     <Compile Include="Assets\Scripts\FieldButton.cs" />
-     <Compile Include="Assets\Scripts\PalletButton.cs" />
-     <Compile Include="Assets\Scripts\Inputs.cs" />
-     <Compile Include="Assets\src\LitJson\JsonWriter.cs" />
-     <Compile Include="Assets\src\LitJson\JsonMapper.cs" />
-     <Compile Include="Assets\src\LitJson\Lexer.cs" />
-     <Compile Include="Assets\src\LitJson\UnityExample\LitJSONTest.cs" />
-     <Compile Include="Assets\src\LitJson\JsonReader.cs" />
-     <Compile Include="Assets\src\LitJson\JsonException.cs" />
-     <Compile Include="Assets\src\LitJson\ParserToken.cs" />
      <Compile Include="Assets\src\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\src\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\Scripts\Inputs.cs" />
      <Compile Include="Assets\src\LitJson\JsonMockWrapper.cs" />
+     <Compile Include="Assets\Scripts\PalletManager.cs" />
+     <Compile Include="Assets\src\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\Scripts\FieldButton.cs" />
+     <Compile Include="Assets\src\LitJson\JsonException.cs" />
+     <Compile Include="Assets\src\LitJson\UnityExample\LitJSONTest.cs" />
+     <Compile Include="Assets\Scripts\PalletButton.cs" />
      <Compile Include="Assets\src\LitJson\JsonData.cs" />
+     <Compile Include="Assets\src\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\src\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\src\LitJson\Lexer.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
