@@ -132,6 +132,6 @@ public class PalletManager : MonoBehaviour
         writer.Write(json);
         writer.Flush();
         writer.Close();
-        image.SetActive(true);
+        //image.SetActive(true);
     }
 }

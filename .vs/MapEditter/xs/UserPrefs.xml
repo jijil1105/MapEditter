@@ -1,7 +1,7 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PalletManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PalletManager.cs" Line="113" Column="42" />
+      <File FileName="Assets/Scripts/PalletManager.cs" Line="135" Column="11" />
       <File FileName="Assets/Scripts/PalletButton.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/FieldButton.cs" />
       <File FileName="Assets/Scripts/Inputs.cs" />
